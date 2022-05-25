@@ -1,7 +1,7 @@
 
 
 function preload(){
-  table = loadTable("frontenddev.php", "csv", "header");
+  table = loadTable("callflower.php", "csv", "header");
   publicSans = loadFont("PublicSans-Regular.otf");
   neutralFace = loadFont("NeutralFace.otf");
   neueMetana = loadFont("NeueMetana-Regular.otf");
@@ -14,7 +14,7 @@ function setup(){
   canvas.parent("sketch");
   frameRate(60);
 
-  let a = createA('https://webdev.iyaclasses.com/~aschung/acad280/frontenddev.html', "Explore the Data", "_self");
+  let a = createA('https://anyac18.github.io/call-flowers/floweropen.html', "Explore the Data", "_self");
   a.position((windowWidth/2)-(100), (windowHeight/2) + (200));
   a.addClass("link");
 
