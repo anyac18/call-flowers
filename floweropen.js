@@ -14,7 +14,7 @@ function setup(){
   canvas.parent("sketch");
   frameRate(60);
 
-  let a = createA('https://anyac18.github.io/call-flowers/floweropen.html', "Explore the Data", "_self");
+  let a = createA('https://anyac18.github.io/call-flowers/flowerhome.html', "Explore the Data", "_self");
   a.position((windowWidth/2)-(100), (windowHeight/2) + (200));
   a.addClass("link");
 
