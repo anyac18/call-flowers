@@ -19,7 +19,7 @@ var name = "all";
 var x = 0;
 
 function preload(){
-  table = loadTable("frontenddev.php", "csv", "header");
+  table = loadTable("callflower.php", "csv", "header");
   publicSans = loadFont("PublicSans-Regular.otf");
   neutralFace = loadFont("NeutralFace.otf");
   neueMetana = loadFont("NeueMetana-Regular.otf");
@@ -34,7 +34,7 @@ function setup(){
   frameRate(60);
   //angleMode(DEGREES);
 
-  let a = createA('https://webdev.iyaclasses.com/~aschung/acad280/frontenddev2.html', "Week by Week →", "_self");
+  let a = createA('https://anyac18.github.io/call-flowers/flowerweeks.html', "Week by Week →", "_self");
   a.position(windowWidth-200, 50);
   a.addClass("link");
 
